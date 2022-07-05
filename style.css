@@ -13,7 +13,7 @@ body{
 
 .menu-mobile{
     display: flex;
-    background-color: rgb(154, 154, 154);
+    background-color: rgb(43, 149, 255);
     bottom: 0;
     position: fixed;
     padding: 15px;
