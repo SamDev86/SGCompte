@@ -19,6 +19,32 @@ body{
     height: 100px;
 }
 
+/* CONTENU MOBILE */
+
+.contenu-mobile{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.solde{
+    display: flex;
+    align-items: center;
+    border: 1px dotted black;
+    width: calc(90% - 10%);
+    padding: 1rem;
+    font-size: 1.2rem;
+}
+
+.espace{
+    flex: 1;
+}
+
+.btn{
+    height: 1.4rem;
+    margin-right: 10px;
+}
+
 /* MENU MOBILE */
 
 .menu-mobile{
