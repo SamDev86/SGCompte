@@ -23,7 +23,8 @@ body{
 
 .contenu-mobile{
     display: flex;
-    justify-content: center;
+    flex-flow: column nowrap;
+    align-items: center;
     margin-top: 1rem;
 }
 
@@ -34,6 +35,10 @@ body{
     width: calc(90% - 10%);
     padding: 1rem;
     font-size: 1.2rem;
+}
+
+.solde-desc{
+    width: calc(90% - 10%);
 }
 
 .espace{
@@ -61,6 +66,7 @@ body{
     text-align: center;
     min-width: 150px;
 }
+
 .item img{
     height: 30px;
 }
